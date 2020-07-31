@@ -5,7 +5,7 @@
 		width: 750px;
 		margin: 0 auto;
 	}
-	.slick-prev, .slick-next {
+	.prev, .next {
 		position: absolute;
 		top: 40%;
 		transform: translateY(-30%);
@@ -18,8 +18,14 @@
 			height: 50px;
 		}
 	}
-	.slick-next {
+	.next {
 		right: -100px;
 		left: auto;
+	}
+	.tns-item {
+		img {
+			display: block;
+			margin: 0 auto;
+		}
 	}
 }
