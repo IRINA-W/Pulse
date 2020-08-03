@@ -1,5 +1,14 @@
 @media (max-width: 1200px) {
-
+	.carousel {
+		.prev, .next {
+			display: none;
+		}
+		&__inner {
+			img {
+				width: 100%;
+			}
+		}
+	}
 }
 @media (max-width: 991px) {
 	.promo {
@@ -62,7 +71,9 @@
 			font-size: 30px;
 		}
 	}
-	
+	.carousel {
+		padding: 50px 0;
+	}
 }
 @media (max-width: 575px) {
 	.promo {
