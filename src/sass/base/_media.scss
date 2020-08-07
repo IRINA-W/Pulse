@@ -47,6 +47,17 @@
 		margin: 0 auto;
 		margin-top: 30px;
 	}
+	.catalog {
+		&__tab {
+			&:hover {
+				box-shadow: none;
+				border: 2px solid #d0d0d0;
+			}
+		}
+		&__content {
+			justify-content: space-around;
+		}
+	}
 }
 @media (max-width: 767px) {
 	.advantages {
@@ -59,7 +70,10 @@
 				margin-top: 50px;
 			}
 		}
-		&__subheader {
+		&__items {
+			max-width: 500px;
+		}
+		&__subtitle {
 			margin-top: 10px;
 		}
 		&__descr {
@@ -73,6 +87,17 @@
 	}
 	.carousel {
 		padding: 50px 0;
+	}
+	.catalog {
+		&__tab {
+			width: 160px;
+			font-size: 16px;
+		}
+		&-item {
+			&__descr {
+				width: 250px;
+			}
+		}
 	}
 }
 @media (max-width: 575px) {
@@ -119,7 +144,11 @@
 			margin-top: 30px;
 		}
 		&__subtitle {
+			margin-top: 10px;
 			text-align: center;
+		}
+		&__items {
+			max-width: 300px;
 		}
 	}
 	.title {
@@ -136,5 +165,15 @@
 	}
 	.feed-form {
 		width: 250px;
+	}
+	.catalog {
+		&__tabs {
+			margin-top: 40px;
+			flex-direction: column;
+		}
+		&__tab {
+			width: 270px;
+			margin: 5px 0;
+		}
 	}
 }
