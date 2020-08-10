@@ -228,4 +228,12 @@
 			font-size: 16px;
 		}
 	}
+	.modal {
+		width: 300px;
+		padding: 20px 0;
+		&__close {
+			top: -35px;
+			right: 0;
+		}
+	}
 }
