@@ -1,5 +1,4 @@
 .advantages {
-	/* min-height: 470px;*/
 	padding: 70px 0 95px;
 	background-color: #f6f6f6;
 	&__wrapper {
@@ -29,6 +28,16 @@
 			text-decoration: underline;
 			text-transform: uppercase;
 			color: #ff0000;
+		}
+	}
+	&__img {
+		&_animated {
+			-webkit-animation: heartbeat 1.5s ease infinite;
+			        animation: heartbeat 1.5s ease infinite;
+				&:hover {
+				-webkit-animation-play-state: paused;
+				        animation-play-state: paused;
+			}
 		}
 	}
 }
