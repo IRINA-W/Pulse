@@ -1,9 +1,18 @@
+@import 'libs/_bootstrap-reboot.min';
+@import 'libs/_icon-fonts';
+@import 'libs/_fonts';
+@import 'libs/_animate'; 
+
 @import "base/variables";
 @import "base/mixins";
 @import "base/_animation";
 
 * {
 	font-family: "Museo Sans Cyrl", sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;   /*плавный скролл */
 }
 
 .container {
